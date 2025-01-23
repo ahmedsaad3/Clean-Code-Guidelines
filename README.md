@@ -20,8 +20,8 @@ double calculateTotalPrice();
 ## 2. Writing the Variable Name
 **Criteria:**
 - Use descriptive, meaningful names that indicate the variable’s purpose.
-- Use camelCase for variables.
-- Avoid single-character names except for loop counters (`i`, `j`).
+- Use **camelCase** for variables.
+- Avoid **single-character** names except for loop counters (`i`, `j`).
 - Prefix boolean variables with `is`, `has`, or `can` to indicate a condition.
 
 **Example:**
@@ -40,7 +40,7 @@ bool isFileLoaded;
 
 ## 3. Writing the Class Name
 **Criteria:**
-- Use PascalCase for class names.
+- Use **PascalCase** for class names.
 - Class names should represent nouns or noun phrases.
 - Avoid abbreviations.
 
@@ -58,7 +58,7 @@ class UserAccount;
 ## 4. Writing the File Name
 **Criteria:**
 - File names should be descriptive and match the primary class or functionality they represent.
-- Use snake_case for file names.
+- Use **snake_case** for file names.
 
 **Example:**
 ```dart
@@ -70,7 +70,7 @@ user_account.dart
 
 ## 5. Writing the Folder Name
 **Criteria:**
-- Use lowercase snake_case for folder names.
+- Use lowercase **snake_case** for folder names.
 - Group related files into folders with descriptive names.
 - Avoid unnecessary nesting.
 
@@ -87,7 +87,7 @@ lib/
 
 ## 6. Naming the Const Variables
 **Criteria:**
-- Use UPPER_CASE with words separated by underscores for constants.
+- Use **UPPER_CASE** with words separated by underscores for constants.
 - Prefix constants with a clear scope, e.g., `MAX_`, `DEFAULT_`, etc.
 
 **Example:**
@@ -104,7 +104,7 @@ const int MAX_SPEED_LIMIT = 100;
 ## 7. Using Comments
 **Criteria:**
 - Write comments to explain *why* the code exists, not *what* the code does (if the code is clear).
-- Use `//` for single-line comments and `/* */` for multi-line comments.
+- Use `//` for **single-line** comments and `/* */` for multi-line comments.
 - Avoid redundant comments.
 
 **Example:**
@@ -146,7 +146,7 @@ void processOrder() {
 ## 9. Consistent Indentation and Braces
 **Criteria:**
 - Use consistent indentation (2 spaces per level is common in Dart).
-- Always use braces, even for single-line statements, to improve readability.
+- Always use braces, even for **single-line** statements, to improve readability.
 
 **Example:**
 ```dart
